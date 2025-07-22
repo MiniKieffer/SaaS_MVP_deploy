@@ -5,7 +5,7 @@ import Highlights from '@/components/homepage/highlights';
 import Pricing from '@/components/homepage/pricing';
 import Footer from '@/components/homepage/footer';
 
-export default function Home(props: { disableCustomTheme?: boolean }) {
+export default function Home() {
   return (
     <>
       <HomepageBar />
