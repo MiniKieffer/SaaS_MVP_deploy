@@ -74,7 +74,6 @@ export default function SignupContainer() {
       password,
       options: {
         data: { full_name: name }, // This adds user metadata to 'user_metadata'
-        emailRedirectTo: `${location.origin}/onboard` // optional
       }
     });
     if (error) {
