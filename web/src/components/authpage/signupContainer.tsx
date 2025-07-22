@@ -74,7 +74,7 @@ export default function SignupContainer() {
       password,
       options: {
         data: { full_name: name }, // This adds user metadata to 'user_metadata'
-        emailRedirectTo: `https://saa-s-mvp-deploy.vercel.app/onboard` // optional
+        emailRedirectTo: `${location.origin}/onboard` // optional
       }
     });
     if (error) {
